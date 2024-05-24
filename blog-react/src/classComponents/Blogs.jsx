@@ -1,7 +1,7 @@
 import { Component } from 'react'; // Imports the React Component class for building stateful components
 import UpdateBlog from './UpdateBlog'; // Imports the UpdateBlog component for updating blog entries
 import AddBlog from './AddBlog'; // Imports the AddBlog component for adding new blog entries
-import deleteBlog from './deleteBlog'; // Imports the deleteBlog function (assumed to be an external function for deleting blogs)
+import deleteBlog from './utils/deleteBlog'; // Imports the deleteBlog function (assumed to be an external function for deleting blogs)
 
 class Blogs extends Component {
   // Defines a React class component named Blogs
