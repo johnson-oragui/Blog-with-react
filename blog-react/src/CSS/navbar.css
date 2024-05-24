@@ -1,0 +1,35 @@
+.navbar {
+  /* Sets the background color of the navbar. */
+  /* background-color: rebeccapurple; */
+  /* Adds space inside the navbar for better visual appearance. */
+  padding: 1em;
+  
+}
+
+.navbar ul {
+  /* Arranges the list items in a row (horizontally). */
+  display: flex;
+  /*  Removes the default bullet points from the list. */
+  list-style-type: none;
+  /* Removes default padding. */
+  padding: 0;
+  /* Removes default margin. */
+  margin: 0;
+}
+
+.navbar ul li {
+  /* Adds space between the navigation links. */
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  /* Sets the color of the links. */
+  color: white;
+  /*  Removes the default underline from the links. */
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  /* Adds an underline effect when the link is hovered over. */
+  text-decoration: underline;
+}
